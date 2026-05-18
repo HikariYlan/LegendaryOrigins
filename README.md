@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head><title>Legendary Origins</title></head>
     <body style="border: solid white">
         <header style="text-align: center">
             <h1 style="margin: 0.1em">Legendary Origins</h1>
