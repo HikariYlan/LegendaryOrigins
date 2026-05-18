@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
   "name": "Claws",
-  "description": "As children of the Ender Dragon, you have long and powerful claws, which allow you to climb anything you want.",
+  "description": "As a child of the Ender Dragon, you have long and powerful claws, which allow you to climb anything you want.",
   "toggle": {
     "type": "origins:toggle",
     "active_by_default": false,
