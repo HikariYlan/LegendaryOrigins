@@ -8,7 +8,7 @@
             <h3 style="margin: 0.1em">Compatible with 1.20.1 & 1.21.1</h3>
         </header>
         <main style="padding: 0.5em">
-            <h1>Become one of the legendary origin!</h1>
+            <h1>Become a legendary origin!</h1>
             <p>
                 Be an enderian capable of flying, become the leader of the blazes, inherit the title of princess of the 
                 guardians, or embrace the sculk in you! Every origin comes with its own difficulty to survive this cubic world.
