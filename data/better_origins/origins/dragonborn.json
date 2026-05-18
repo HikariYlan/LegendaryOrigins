@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "better_origins:dragonborn_elytra",
+    "better_origins:dragonborn_launch",
+    "better_origins:dragonborn_claws",
+    "better_origins:dragonborn_dragon_ride",
+    "better_origins:dragonborn_carry",
+    "origins:aerial_combatant",
+    "better_origins:dragonborn_water_slowness",
+    "better_origins:dragonborn_claustrophobia",
+    "better_origins:dragonborn_fresh_air",
+    "origins:more_kinetic_damage",
+    "origins:no_shield",
+    "origins:more_exhaustion"
+  ],
+  "icon": "minecraft:dragon_head",
+  "order": 4,
+  "impact": 3,
+  "name": "Dragonborn",
+  "description": "Very rarely, when an Enderian is born, it can mutate and become a Dragonborn. They can fly and have powerful claws which allow them to climb any surfaces. They can carry mobs and players on their back, and give them a free ride. However, water is their worst enemy and they can't hold a shield because of their claws."
+}
