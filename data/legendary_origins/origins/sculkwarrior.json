@@ -1,0 +1,28 @@
+{
+  "powers": [
+    "legendary_origins:sculkwarrior_spawn_modifier",
+    "legendary_origins:sculkwarrior_blindness",
+    "legendary_origins:sculkwarrior_strength",
+    "legendary_origins:sculkwarrior_phasing",
+    "legendary_origins:sculkwarrior_phasing_toggle",
+    "legendary_origins:sculkwarrior_phasing_overlay",
+    "legendary_origins:sculkwarrior_phasing_invisibility",
+    "legendary_origins:sculkwarrior_extra_reach",
+    "legendary_origins:sculkwarrior_teammaker",
+    "legendary_origins:sculkwarrior_family",
+    "legendary_origins:sculkwarrior_prevent_sensor",
+    "legendary_origins:sculkwarrior_roar",
+    "legendary_origins:sculkwarrior_strict_armor",
+    "legendary_origins:sculkwarrior_rocky_diet_preventing",
+    "legendary_origins:sculkwarrior_rocky_diet_eating",
+    "legendary_origins:sculkwarrior_daredevil",
+    "legendary_origins:sculkwarrior_more_fall_damage",
+    "legendary_origins:sculkwarrior_no_weapons",
+    "legendary_origins:sculkwarrior_no_bows_shield"
+  ],
+  "icon": "minecraft:sculk_shrieker",
+  "order": 4,
+  "impact": 3,
+  "name": "Sculk Warrior",
+  "description": "Blind since birth, the sculk warriors have an incredible strength and resistance, as well as the ability to hear sounds better than anybody else. They can phase through sculk and doesn't trigger sensors, but cannot wear any armor or use any weapons."
+}

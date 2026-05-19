@@ -1,14 +1,14 @@
 {
   "powers": [
-    "better_origins:dragonprince_elytra",
-    "better_origins:dragonprince_launch",
-    "better_origins:dragonprince_claws",
-    "better_origins:dragonprince_dragon_ride",
-    "better_origins:dragonprince_carry",
+    "legendary_origins:dragonprince_elytra",
+    "legendary_origins:dragonprince_launch",
+    "legendary_origins:dragonprince_claws",
+    "legendary_origins:dragonprince_dragon_ride",
+    "legendary_origins:dragonprince_carry",
     "origins:aerial_combatant",
-    "better_origins:dragonprince_water_slowness",
-    "better_origins:dragonprince_claustrophobia",
-    "better_origins:dragonprince_fresh_air",
+    "legendary_origins:dragonprince_water_slowness",
+    "legendary_origins:dragonprince_claustrophobia",
+    "legendary_origins:dragonprince_fresh_air",
     "origins:more_kinetic_damage",
     "origins:no_shield",
     "origins:more_exhaustion"
