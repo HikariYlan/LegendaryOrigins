@@ -13,7 +13,9 @@
     "origins:no_shield",
     "origins:more_exhaustion"
   ],
-  "icon": "minecraft:dragon_head",
+  "icon": {
+    "id": "minecraft:dragon_head"
+  },
   "order": 4,
   "impact": 3,
   "name": "Dragon Prince",
