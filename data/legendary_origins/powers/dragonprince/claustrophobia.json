@@ -8,14 +8,14 @@
   "amplifier": 1,
   "effects": [
     {
-      "effect": "minecraft:slowness",
-      "is_ambient": true,
+      "id": "minecraft:slowness",
+      "ambient": true,
       "show_particles": false,
       "show_icon": true
     },
     {
-      "effect": "minecraft:weakness",
-      "is_ambient": true,
+      "id": "minecraft:weakness",
+      "ambient": true,
       "show_particles": false,
       "show_icon": true
     }
