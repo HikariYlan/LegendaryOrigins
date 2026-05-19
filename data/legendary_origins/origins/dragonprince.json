@@ -7,7 +7,11 @@
     "legendary_origins:dragonprince/carry",
     "origins:aerial_combatant",
     "legendary_origins:dragonprince/water_slowness",
-    "legendary_origins:dragonprince/claustrophobia"
+    "legendary_origins:dragonprince/claustrophobia",
+    "legendary_origins:dragonprince/fresh_air",
+    "origins:more_kinetic_damage",
+    "origins:no_shield",
+    "origins:more_exhaustion"
   ],
   "icon": {
     "id": "minecraft:dragon_head"

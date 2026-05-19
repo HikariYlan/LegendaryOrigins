@@ -16,7 +16,7 @@
       },
       {
         "type": "origins:power_active",
-        "power": "dragonborn_origin:dragonborn_claustrophobia"
+        "power": "legendary_origins:dragonprince/claustrophobia"
       }
     ]
   },
