@@ -20,7 +20,9 @@
     "legendary_origins:sculkwarrior_no_weapons",
     "legendary_origins:sculkwarrior_no_bows_shield"
   ],
-  "icon": "minecraft:sculk_shrieker",
+  "icon": {
+    "id": "minecraft:sculk_shrieker"
+  },
   "order": 4,
   "impact": 3,
   "name": "Sculk Warrior",

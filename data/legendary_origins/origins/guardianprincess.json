@@ -22,7 +22,9 @@
     "legendary_origins:guardianprincess_aoe",
     "legendary_origins:guardianprincess_cooldown"
   ],
-  "icon": "minecraft:sea_lantern",
+  "icon": {
+    "id": "minecraft:sea_lantern"
+  },
   "order": 4,
   "impact": 3,
   "name": "Guardian Princess",
