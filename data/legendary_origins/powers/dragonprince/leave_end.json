@@ -1,0 +1,22 @@
+{
+  "hidden": true,
+  "type": "origins:action_when_damage_taken",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "execute in minecraft:overworld run tp @s 0 400 0"
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "minecraft:always_most_significant_fall"
+  },
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "offhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    }
+  }
+}
