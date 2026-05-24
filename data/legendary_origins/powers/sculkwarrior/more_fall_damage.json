@@ -8,7 +8,7 @@
   },
   "modifier": {
     "name": "Heavy legs",
-    "operation": "addition",
-    "value": 15
+    "operation": "add_total_early",
+    "amount": 15
   }
 }

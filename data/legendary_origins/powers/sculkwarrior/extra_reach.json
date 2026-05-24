@@ -4,16 +4,16 @@
   "description": "You are able to reach 1 block further than usual.",
   "modifiers": [
     {
-      "name": "Extra Reach block reach",
-      "attribute": "reach-entity-attributes:reach",
-      "value": 1,
-      "operation": "addition"
+      "id": "legendary_origins:extra_reach_block",
+      "attribute": "minecraft:player.block_interaction_range",
+      "amount": 1,
+      "operation": "add_value"
     },
     {
-      "name": "Extra Reach entity reach",
-      "attribute": "reach-entity-attributes:attack_range",
-      "value": 1,
-      "operation": "addition"
+      "id": "legendary_origins:extra_reach_entity",
+      "attribute": "minecraft:player.entity_interaction_range",
+      "amount": 1,
+      "operation": "add_value"
     }
   ]
 }

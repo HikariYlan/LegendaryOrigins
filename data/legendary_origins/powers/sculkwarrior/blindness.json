@@ -7,13 +7,13 @@
   "duration_per_stack": 40,
   "effects": [
     {
-      "effect": "minecraft:blindness",
+      "id": "minecraft:blindness",
       "is_ambient": true,
       "show_particles": false,
       "show_icon": false
     },
     {
-      "effect": "minecraft:slowness",
+      "id": "minecraft:slowness",
       "is_ambient": true,
       "show_particles": false,
       "show_icon": false

@@ -2,8 +2,8 @@
   "type": "origins:modify_damage_dealt",
   "hidden": true,
   "modifier": {
-    "operation": "multiply_total",
-    "value": -1
+    "operation": "set_total",
+    "amount": -1
   },
   "condition": {
     "type": "origins:equipped_item",
@@ -11,7 +11,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "tag": "minecraft:tools"
+        "tag": "legendary_origins:tools"
       }
     }
   }
