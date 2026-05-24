@@ -1,7 +1,7 @@
 {
   "type": "origins:action_on_hit",
-  "name": "Extinguish",
-  "description": "You can set a mob/player on fire by using yours, by attacking while being on fire.",
+  "name": "Extinction",
+  "description": "Tu peux enflammer un mob/joueur en utilisant le tien, en l'attaquant pendant que tu es en feu.",
   "bientity_action": {
     "type": "origins:and",
     "actions": [

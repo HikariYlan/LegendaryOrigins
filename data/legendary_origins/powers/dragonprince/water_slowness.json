@@ -1,7 +1,7 @@
 {
   "type": "origins:stacking_status_effect",
-  "name": "Wet feathers",
-  "description": "When you are in water or when it rain, your dragon scales become wet and heavy. You have slowness until you get out of the water or the rain is over.",
+  "name": "Poule mouillée",
+  "description": "Lorsqu'en contact avec l'eau ou sous la pluie, tes écailles de dragon deviennent mouillées et lourdes, ce qui a pour effet de te rendre lent.",
   "min_stacks": 1,
   "max_stacks": 1,
   "duration_per_stack": 60,

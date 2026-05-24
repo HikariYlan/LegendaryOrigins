@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
-  "name": "Blaze launch",
-  "description": "Every 15 seconds, by using a blaze rod, you are able to launch about 20 blocks up into the air. You can also shoot fireballs by using blaze powder.",
+  "name": "Projection",
+  "description": "Toutes les 15 secondes, en utilisant un bâton de feu, tu peux te projeter 20 blocs dans les airs. Dans le ciel, tu peux tirer des boules de feu en utilisant de la poudre de blaze.",
   "cooldown": {
     "type": "origins:cooldown",
     "cooldown": 300,

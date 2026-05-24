@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
-  "name": "Bulky enough",
-  "description": "Your natural armor prevents you from wearing any additional armor & from flying with elytras.",
+  "name": "Protection naturelle",
+  "description": "Ton épaisse armure naturelle t'empêche de porter plus d'armure, ainsi que des elytras.",
   "no_armor": {
     "type": "origins:restrict_armor",
     "head": {

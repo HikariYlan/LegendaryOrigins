@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
-  "name": "Wings",
-  "description": "Being a dragon prince offers you the possibility to fly. But be careful! Water makes your wings heavy, so you will automatically retract them under the rain or in the water. You also can retract them manually by sneaking.",
+  "name": "Héritage de maman",
+  "description": "Être un prince dragon t'offre une magnifique paire d'ailes ! Fais attention tout de même à l'eau ! Tes ailes sont très sensibles à ce liquide, te forçant à les rétracter pour les protéger. Tu peux aussi les rétracter manuellement en t'accroupissant.",
   "toggle": {
     "type": "origins:toggle",
     "active_by_default": false,

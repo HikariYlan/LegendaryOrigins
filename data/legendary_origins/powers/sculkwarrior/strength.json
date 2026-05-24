@@ -1,7 +1,7 @@
 {
   "type": "origins:stacking_status_effect",
-  "name": "Build like a tank",
-  "description": "Being like the warden also make you constantly strong and very resistant.",
+  "name": "Comparable à un tank",
+  "description": "Être comme un warden te rends très fort et très résistant.",
   "min_stacks": 1,
   "max_stacks": 1,
   "duration_per_stack": 40,

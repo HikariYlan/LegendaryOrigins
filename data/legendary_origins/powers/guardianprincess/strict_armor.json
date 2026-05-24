@@ -1,7 +1,7 @@
 {
   "type": "origins:restrict_armor",
-  "name": "Guardian tail",
-  "description": "Your guardian tail prevents you from wearing leggings and boots. You also cannot wear leather armor, as it would teared apart by you spiky scales.",
+  "name": "Queue de gardien",
+  "description": "Ta queue de gardien t'empêches de porter des jambières et des bottes. Tu ne peux pas aussi porter de cuir à cause de tes épines sur tout le corps.",
   "head": {
     "type": "origins:armor_value",
     "comparison": "<",

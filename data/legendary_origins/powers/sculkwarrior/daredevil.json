@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
-  "name": "Daredevil style",
-  "description": "While you are not able to see well, you can still hear well. Any mob that is in a 16 block radius will be outlined, except if they are sneaking.",
+  "name": "Matt Murdock",
+  "description": "Mauvaise vision, très bonne ouïe. Tout mob se déplaçant dans un rayon de 16 blocs autour de toi te seras visible, sauf s'il est accroupi.",
   "entity_action": {
     "type": "origins:area_of_effect",
     "radius": 16,

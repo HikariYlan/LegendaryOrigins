@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
-  "name": "Fire absorption",
-  "description": "Being a nether-related mob allows you to consume fire/lava to regenerate & nourish yourself.",
+  "name": "Absorption du feu",
+  "description": "Étant un mob du nether, tu peux consommer du feu ou de la lave pour te régénérer et te nourrir.",
   "entity_action": {
     "type": "origins:apply_effect",
     "effects": [

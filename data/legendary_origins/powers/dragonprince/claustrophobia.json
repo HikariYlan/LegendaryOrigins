@@ -1,7 +1,7 @@
 {
   "type": "origins:stacking_status_effect",
-  "name": "Claustrophobia",
-  "description": "Your constant need of fresh air makes you hate closed space, which slows you down and makes you weak.",
+  "name": "Claustrophobie",
+  "description": "Ton besoin constant d'air frais te faire haïr les endroits étroits. Être dans un endroit pareil te rends faible et lent.",
   "min_stacks": 1,
   "max_stacks": 1,
   "duration_per_stack": 200,

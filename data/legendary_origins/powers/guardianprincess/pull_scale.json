@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
-  "name": "A small sacrifice",
-  "description": "When right-clicking with both hand empty, you can pull out a scale of your body, for the prize of 1 heart of damage.",
+  "name": "Un petit sacrifice",
+  "description": "En faisant un clic droit avec les deux mains vides, tu peux t'arracher une écaille du corps, au prix d'un 1 coeur de dégât.",
   "entity_action": {
     "type": "origins:and",
     "actions":[

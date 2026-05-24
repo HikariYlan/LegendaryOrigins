@@ -27,6 +27,6 @@
   },
   "order": 4,
   "impact": 3,
-  "name": "Guardian Princess",
-  "description": "Humanoid guardian that spawn every 1000 years, guardian princesses can breathe, mine and see underwater, but cannot be on land without a sea lantern to see properly. They can shoot laser, has thorns event without armor and can weaken their opponents when hitting them."
+  "name": "Princesse Gardienne",
+  "description": "Gardien humanoïde apparaissant tous les 1000 ans, la princesse peut respirer, miner et voir sous l'eau. Elle ne peut cependant pas respirer à la surface, et a besoin d'une lanterne des mers pour voir correctement. Elle possède des épines naturelles, et peut infliger un effet de lenteur à ses ennemis."
 }

@@ -25,6 +25,6 @@
   },
   "order": 4,
   "impact": 3,
-  "name": "Sculk Warrior",
-  "description": "Blind since birth, the sculk warriors have an incredible strength and resistance, as well as the ability to hear sounds better than anybody else. They can phase through sculk and doesn't trigger sensors, but cannot wear any armor or use any weapons."
+  "name": "Guerrier Sculk",
+  "description": "Aveugle de naissance, les guerriers sculk ont une force prodigieuse et une résistance à toutes épreuves, ainsi que la possibilité d'entendre les sons mieux que quiconque. Ils peuvent naviguer à travers le sculk, et ne déclenchent pas les capteurs sculk. Ils ne peuvent pas mettre d'armure et refusent d'utiliser des armes autres que leur poings."
 }

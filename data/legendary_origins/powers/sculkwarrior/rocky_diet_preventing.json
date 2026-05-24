@@ -1,6 +1,6 @@
 {
-  "name": "Rocky Diet",
-  "description": "You can only eat deepslate or its cobbled version.",
+  "name": "Régime rocailleux",
+  "description": "Tu ne peux manger que de l'ardoise et de la pierre des abîmes.",
   "type": "origins:prevent_item_use",
   "item_condition": {
     "type": "origins:and",

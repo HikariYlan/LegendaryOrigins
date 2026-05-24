@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
-  "name": "Enderly eyes",
-  "description": "Your enderman genes makes you see properly in the end, but not in the overworld. You can however eat a chorus fruit to see correctly for around 6 minutes.",
+  "name": "Yeux d'enderman",
+  "description": "Tes gènes d'enderman te permet de voir correctement dans l'End, mais pas sur Terre. Afin d'avoir une vision parfaite pendant 6 minutes, tu peux manger un fruit de chorus.",
   "vision": {
     "type": "origins:shader",
     "shader": "minecraft:shaders/post/invert.json"
