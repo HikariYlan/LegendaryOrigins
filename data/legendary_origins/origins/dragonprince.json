@@ -13,7 +13,9 @@
     "legendary_origins:dragonprince/fresh_air",
     "origins:more_kinetic_damage",
     "origins:no_shield",
-    "origins:more_exhaustion"
+    "origins:more_exhaustion",
+    "legendary_origins:dragonprince/ender_vision",
+    "legendary_origins:dragonprince/cooldown"
   ],
   "icon": {
     "id": "minecraft:dragon_head"

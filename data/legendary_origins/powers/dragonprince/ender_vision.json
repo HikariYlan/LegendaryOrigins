@@ -1,0 +1,70 @@
+{
+  "type": "origins:multiple",
+  "name": "Enderly eyes",
+  "description": "Your enderman genes makes you see properly in the end, but not in the overworld. You can however eat a chorus fruit to see correctly for around 6 minutes.",
+  "vision": {
+    "type": "origins:shader",
+    "shader": "minecraft:shaders/post/invert.json"
+  },
+  "eat_chorus": {
+    "type": "origins:action_on_item_use",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:chorus_fruit"
+      }
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "legendary_origins:dragonprince/cooldown"
+        },
+        {
+          "type": "origins:revoke_power",
+          "power": "*:*_vision",
+          "source": "legendary_origins:dragonprince"
+        }
+      ]
+    }
+  },
+  "bad_vision": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+      "type": "origins:grant_power",
+      "power": "*:*_vision",
+      "source": "legendary_origins:dragonprince"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "legendary_origins:dragonprince/cooldown",
+          "comparison": "<=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_end",
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "good_vision": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+      "type": "origins:revoke_power",
+      "power": "*:*_vision",
+      "source": "legendary_origins:dragonprince"
+    },
+    "condition": {
+      "type": "origins:dimension",
+      "dimension": "minecraft:the_end"
+    }
+  }
+}
