@@ -13,6 +13,7 @@
   "elytra": {
     "type": "origins:elytra_flight",
     "render_elytra": true,
+    "texture_location": "legendary_origins_resourcepack:textures/entity/elytra.png",
     "condition": {
       "type": "origins:and",
       "conditions": [
