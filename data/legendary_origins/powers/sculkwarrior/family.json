@@ -1,6 +1,6 @@
 {
-  "name": "Master's respect",
-  "description": "The wardens, your masters, acknowledged your strength and won't attack you.",
+  "name": "Respect des maîtres",
+  "description": "Les wardens, tes maîtres, estiment ta force suffisante, et ne t'attaqueront pas.",
   "hidden": false,
   "type": "origins:action_over_time",
   "interval": 20,

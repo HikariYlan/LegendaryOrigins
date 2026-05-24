@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
-  "name": "Call for help",
-  "description": "Even the best warriors can lose a battle. If your health is low enough, you can summon a warden to help you.",
+  "name": "Appel à l'aide",
+  "description": "Même les plus grands guerriers peuvent perdre une bataille. Si ta santé est suffisamment basse, tu peux rugir pour appeler un warden à la rescousse.",
   "entity_action": {
     "type": "origins:and",
     "actions": [

@@ -1,8 +1,8 @@
 {
   "type": "origins:action_on_item_use",
   "trigger": "instant",
-  "name": "Grace of the princess",
-  "description": "By sacrificing one of you scales and half of your life, you can give Strengh, Resistance & Regeneration for 30 seconds in a 32 blocks radius.",
+  "name": "Grâce de la princesse",
+  "description": "En sacrifiant une de tes écailles et la moitié de ta vie, tu peux donner Force, Résistance et Régénération pendant 30 secondes dans un rayon de 32 blocs.",
   "entity_action": {
     "type": "origins:and",
     "actions": [

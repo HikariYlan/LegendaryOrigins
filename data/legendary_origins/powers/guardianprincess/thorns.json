@@ -1,7 +1,7 @@
 {
   "type": "origins:action_when_hit",
-  "name": "Guardian spikes",
-  "description": "Like guardians, you have spikes that, when you're hit, cause Thorns-like damage to the opponent.",
+  "name": "Corps épineux",
+  "description": "Comme les gardiens, tu as des épines infligeant des dégâts à quiconque te porte un coup.",
   "bientity_action": {
     "type": "origins:invert",
     "action": {

@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
-  "name": "Claws",
-  "description": "As a child of the Ender Dragon, you have long and powerful claws, which allow you to climb anything you want.",
+  "name": "Escalade",
+  "description": "Étant un enfant de l'Ender Dragon, tu possèdes des griffes te permettant de t'accrocher à n'importe quelle surface.",
   "toggle": {
     "type": "origins:toggle",
     "active_by_default": false,

@@ -1,6 +1,6 @@
 {
-  "name": "Inhabitant of the dark",
-  "description": "You spawn in an ancient city, trying to figure how to climb to the surface.",
+  "name": "Habitant des abîmes",
+  "description": "Tu apparais dans une ancienne cité, cherchant un moyen de monter jusqu'à la surface.",
   "type": "origins:modify_player_spawn",
   "dimension": "minecraft:overworld",
   "structure": "minecraft:ancient_city",

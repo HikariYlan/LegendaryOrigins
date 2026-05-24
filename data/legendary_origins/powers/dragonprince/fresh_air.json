@@ -1,6 +1,6 @@
 {
-  "name": "Perfect sleep",
-  "description": "To be able to sleep, you need to be at least 86 blocks high, while not being in a claustrophobic state.",
+  "name": "Sommeil réparateur",
+  "description": "Afin de pouvoir dormir, tu dois être minimum à 86 blocs de hauteur, sans être dans un état de claustrophobie.",
   "type": "origins:prevent_sleep",
   "condition": {
     "type": "origins:or",

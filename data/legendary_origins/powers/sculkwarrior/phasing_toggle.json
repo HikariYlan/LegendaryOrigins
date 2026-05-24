@@ -1,8 +1,8 @@
 {
   "type": "origins:toggle",
   "active_by_default": false,
-  "name": "Back from the sculk",
-  "description": "You are able to phase through sculk, which gives you the ability to see everything, while being invisible.",
+  "name": "Cache-cache sculk-taculaire",
+  "description": "Tu es capable de traverser le sculk, t'offrant la possibilité de voir correctement, tout en étant invisible.",
   "key": {
     "key": "key.origins.primary_active",
     "continuous": false

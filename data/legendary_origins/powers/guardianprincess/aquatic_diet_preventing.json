@@ -1,6 +1,6 @@
 {
-  "name": "Aquatic Diet",
-  "description": "Being a guardian, you can only eat aquatic flora (seagrass, sea pickles, kelp, corals...)",
+  "name": "Régime aquatique",
+  "description": "Étant un gardien, tu peux manger que des plantes aquatiques (herbe, cornichon, algue, corail...)",
   "type": "origins:prevent_item_use",
   "item_condition": {
     "type": "origins:and",

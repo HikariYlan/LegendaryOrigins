@@ -1,6 +1,6 @@
 {
-  "name": "A Spiky Family",
-  "description": "Guardians and elders guardians won't attack you. What a weird family!",
+  "name": "Une famille épineuse",
+  "description": "Les gardiens et grands gardiens ne t'attaqueront pas. Quelle famille bizarre !",
   "hidden": false,
   "type": "origins:action_over_time",
   "interval": 20,

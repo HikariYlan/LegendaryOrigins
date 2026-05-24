@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
-  "name": "Extra Reach",
-  "description": "You are able to reach 1 block further than usual.",
+  "name": "Grande portée",
+  "description": "Ta portée est augmentée d'1 bloc.",
   "modifiers": [
     {
       "id": "legendary_origins:extra_reach_block",

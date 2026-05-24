@@ -1,7 +1,7 @@
 {
   "type": "origins:prevent_game_event",
-  "name": "Silent running",
-  "description": "Your affiliation to sculk makes you able to not trigger sculk sensor, except if you walk directly on it.",
+  "name": "Marche silencieuse",
+  "description": "Ton affiliation avec le sculk te permet de ne pas déclencher les capteurs, sauf si tu marches dessus directement.",
   "events": [
     "minecraft:step",
     "minecraft:swim",

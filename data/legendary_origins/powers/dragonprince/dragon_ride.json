@@ -1,6 +1,6 @@
 {
-  "name": "Dragon ride",
-  "description": "You are strong enough to carry someone on your shoulders. People can mount you when you're not moving, and you can give a free flight to your friends! Force dismount rider by sneaking and jump.",
+  "name": "À dos de dragon",
+  "description": "Tu es suffisamment fort pour porter quelqu'un sur tes épaules. N'importe qui peut monter sur toi pendant que tu es immobile, et tu peux ensuite t'envoler avec eux ! Accroupis-toi et saute pour le faire descendre.",
   "type": "apoli:multiple",
   "ride_mount": {
     "type": "apoli:action_on_being_used",

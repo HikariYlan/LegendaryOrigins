@@ -1,7 +1,7 @@
 {
   "type": "origins:stacking_status_effect",
-  "name": "No vision",
-  "description": "Being like the warden make you constantly blind and slow, except if you are in sculk.",
+  "name": "Vision obscure",
+  "description": "Étant comme un warden, tu es constamment aveugle et lent, sauf dans le sculk.",
   "min_stacks": 1,
   "max_stacks": 1,
   "duration_per_stack": 40,

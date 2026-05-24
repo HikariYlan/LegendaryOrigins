@@ -1,7 +1,7 @@
 {
   "type": "origins:prevent_item_use",
-  "name": "Major test of strength",
-  "description": "Your masters made you learn the hard way, with no weapons & shield allowed. In honor of their legacy, you continue to test your very own strength everyday.",
+  "name": "Épreuve extrême de force",
+  "description": "Tes maîtres t'ont appris à te battre à la dure, sans armes et bouclier. En l'honneur de leur apprentissage, tu continues de tester ta propre force tous les jours.",
   "item_condition": {
     "type": "origins:or",
     "conditions": [

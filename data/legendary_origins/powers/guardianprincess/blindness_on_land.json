@@ -1,7 +1,7 @@
 {
   "type": "origins:stacking_status_effect",
-  "name": "Fishy eyes",
-  "description": "While on land, you are not able to see anything, except if you are holding a sea lantern in your off-hand.",
+  "name": "Yeux de poissons",
+  "description": "Sur la terre ferme, tu ne peux voir qu'avec une lanterne des mers dans ta main secondaire.",
   "min_stacks": 1,
   "max_stacks": 1,
   "duration_per_stack": 40,
