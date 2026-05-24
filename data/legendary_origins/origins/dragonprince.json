@@ -1,5 +1,7 @@
 {
   "powers": [
+    "legendary_origins:dragonprince/end_spawn",
+    "legendary_origins:dragonprince/leave_end",
     "legendary_origins:dragonprince/elytra",
     "legendary_origins:dragonprince/launch",
     "legendary_origins:dragonprince/claws",

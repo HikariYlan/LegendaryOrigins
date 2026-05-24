@@ -1,0 +1,24 @@
+{
+  "type": "origins:action_on_callback",
+  "name": "Prince of the End",
+  "description": "You spawn in the End, called by your mother to protect her egg. Feeling adventurous, you must open your eyes to find a way to leave the island above Earth.",
+  "entity_action_chosen": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "execute in minecraft:the_end run tp @s 0 100 0 0 0"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "spawnpoint @s 0 100 0"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "legendary_origins:dragonprince/cooldown",
+        "change": 6000,
+        "operation": "set"
+      }
+    ]
+  }
+}
