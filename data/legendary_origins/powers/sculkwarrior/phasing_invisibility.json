@@ -6,7 +6,7 @@
     "conditions": [
       {
         "type": "origins:power_active",
-        "power": "better_origins:sculkwarrior_phasing_toggle"
+        "power": "legendary_origins:sculkwarrior/phasing_toggle"
       },
       {
         "type": "origins:in_block",
