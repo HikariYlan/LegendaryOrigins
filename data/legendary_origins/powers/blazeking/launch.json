@@ -24,14 +24,14 @@
         {
           "type": "origins:apply_effect",
           "effect": {
-            "effect": "minecraft:slow_falling",
+            "id": "minecraft:slow_falling",
             "duration": 100
           }
         },
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -73,7 +73,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }

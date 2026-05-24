@@ -6,11 +6,11 @@
     "type": "origins:apply_effect",
     "effects": [
       {
-        "effect": "minecraft:regeneration",
+        "id": "minecraft:regeneration",
         "duration": 24
       },
       {
-        "effect": "minecraft:saturation",
+        "id": "minecraft:saturation",
         "duration": 24
       }
     ]
