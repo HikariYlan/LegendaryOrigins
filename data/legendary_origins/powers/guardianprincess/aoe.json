@@ -15,17 +15,17 @@
             "type": "origins:apply_effect",
             "effects": [
               {
-                "effect": "minecraft:strength",
+                "id": "minecraft:strength",
                 "duration": 600,
                 "amplifier": 0
               },
               {
-                "effect": "minecraft:resistance",
+                "id": "minecraft:resistance",
                 "duration": 600,
                 "amplifier": 0
               },
               {
-                "effect": "minecraft:regeneration",
+                "id": "minecraft:regeneration",
                 "duration": 600,
                 "amplifier": 0
               }
@@ -40,7 +40,7 @@
       },
       {
         "type": "origins:trigger_cooldown",
-        "power": "better_origins:guardianprincess_cooldown"
+        "power": "legendary_origins:guardianprincess/cooldown"
       }
     ],
     "bientity_condition": {
@@ -62,7 +62,7 @@
   },
   "condition": {
     "type": "origins:resource",
-    "resource": "better_origins:guardianprincess_cooldown",
+    "resource": "legendary_origins:guardianprincess/cooldown",
     "comparison": "==",
     "compare_to": 0
   }
