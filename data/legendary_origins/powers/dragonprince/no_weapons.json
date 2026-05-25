@@ -1,0 +1,78 @@
+{
+  "type": "origins:multiple",
+  "name": "Clumsy hands",
+  "description": "Your claws prevent you to wield any weapons (swords, (cross)bows, tridents, maces, shields...). Axes are usable, but deals no damage.",
+  "no_pickup": {
+    "type": "origins:prevent_item_pickup",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "legendary_origins:weapons"
+      }
+    }
+  },
+  "no_shield": {
+    "type": "origins:prevent_item_use",
+    "name": "Clumsy hands",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "legendary_origins:weapons"
+      }
+    }
+  },
+  "no_use": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "set_total",
+      "amount": 0.5
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "legendary_origins:weapons"
+        }
+      }
+    }
+  },
+  "drop_weapon": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:drop_inventory",
+        "slot": "weapon.mainhand"
+      }
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "legendary_origins:weapons"
+        }
+      }
+    }
+  },
+  "no_axe_damage": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "set_total",
+      "amount": -1
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "minecraft:axes"
+        }
+      }
+    }
+  }
+}
