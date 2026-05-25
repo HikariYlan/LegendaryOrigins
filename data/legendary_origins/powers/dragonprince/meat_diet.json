@@ -1,0 +1,34 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Dragon diet",
+  "description": "As a dragon, you are carnivorous, meaning you can only eat meat. However, your ender genes allow you to still eat chorus fruit for your vision.",
+  "item_condition": {
+    "type": "origins:all_of",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:meat"
+        },
+        "inverted": true
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:chorus_fruit"
+        },
+        "inverted": true
+      },
+      {
+        "type": "origins:food"
+      }
+    ]
+  }
+}
