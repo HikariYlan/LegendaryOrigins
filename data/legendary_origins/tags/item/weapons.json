@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:swords",
+    "#minecraft:enchantable/bow",
+    "#minecraft:enchantable/crossbow",
+    "#minecraft:enchantable/mace",
+    "#minecraft:enchantable/trident",
+    "minecraft:shield"
+  ]
+}
