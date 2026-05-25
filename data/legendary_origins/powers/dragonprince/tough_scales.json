@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "name": "Tough scales",
+  "description": "Your tough ender scales give you a +4 base armor (2 'chestplates' on the armor bar).",
+  "modifier": {
+    "id": "legendary_origins:increase_base_armor",
+    "attribute": "minecraft:generic.armor",
+    "amount": 4,
+    "operation": "add_value"
+  }
+}
