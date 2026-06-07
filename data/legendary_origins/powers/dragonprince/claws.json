@@ -1,7 +1,33 @@
 {
   "type": "origins:multiple",
-  "name": "Claws",
-  "description": "As a child of the Ender Dragon, you have long and powerful claws, which allow you to climb anything you want.",
+  "name": "Dragon Claws",
+  "description": "Your dragon claws are sharp and powerful, perfect to make your enemies bleed. You can also climb any surface, and if not needed, retract them at anytime.",
+  "base_damage": {
+    "type": "origins:attribute",
+    "modifier": {
+      "id": "legendary_origins:dragonprince_base_damage_increase",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 6,
+      "operation": "add_value"
+    }
+  },
+  "bleeding": {
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "id": "minecraft:wither",
+          "duration": 80,
+          "amplifier": 1,
+          "show_icon": false,
+          "show_particles": false,
+          "is_ambient": true
+        }
+      }
+    }
+  },
   "toggle": {
     "type": "origins:toggle",
     "active_by_default": false,
