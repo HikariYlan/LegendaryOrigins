@@ -1,31 +1,29 @@
 {
-  "type": "origins:conditioned_attribute",
+  "type": "origins:stacking_status_effect",
   "name": "Claustrophobia",
   "description": "Your constant need of fresh air makes you hate closed space, which slows you down and makes you weak.",
-  "modifiers": [
+  "min_stacks": 1,
+  "max_stacks": 1,
+  "duration_per_stack": 100,
+  "amplifier": 1,
+  "effects": [
     {
-      "attribute": "minecraft:generic.movement_speed",
-      "operation": "add_value",
-      "amount": -0.02,
-      "id": "legendary_origins:decreased_speed_when_claustrophobic"
+      "id": "minecraft:slowness",
+      "ambient": true,
+      "show_particles": false,
+      "show_icon": false
     },
     {
-      "attribute": "minecraft:generic.attack_damage",
-      "operation": "add_value",
-      "amount": -4,
-      "id": "legendary_origins:decreased_damage_when_claustrophobic"
+      "id": "minecraft:weakness",
+      "ambient": true,
+      "show_particles": false,
+      "show_icon": false
     }
   ],
-  "tick_rate": 20,
   "condition": {
     "type": "origins:block_collision",
     "offset_x": 0,
     "offset_y": 1,
-    "offset_z": 0,
-    "block_condition": {
-      "type": "origins:in_tag",
-      "tag": "minecraft:impermeable",
-      "inverted": true
-    }
+    "offset_z": 0
   }
 }
