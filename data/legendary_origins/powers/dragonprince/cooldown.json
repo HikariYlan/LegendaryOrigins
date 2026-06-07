@@ -1,6 +1,6 @@
 {
   "type": "origins:cooldown",
-  "cooldown": 6000,
+  "cooldown": 7200,
   "hud_render": {
     "should_render": true,
     "inverted": true,
