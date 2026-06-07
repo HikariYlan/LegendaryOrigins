@@ -18,14 +18,6 @@
         "resource": "legendary_origins:dragonprince/cooldown",
         "change": 6000,
         "operation": "set"
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "attribute @s minecraft:generic.movement_speed modifier remove legendary_origins:decreased_speed_when_claustrophobic"
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "attribute @s minecraft:generic.attack_damage modifier remove legendary_origins:decreased_damage_when_claustrophobic"
       }
     ]
   }
