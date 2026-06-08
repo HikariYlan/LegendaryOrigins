@@ -20,7 +20,7 @@
       {
         "type": "origins:change_resource",
         "resource": "legendary_origins:dragonprince/cooldown",
-        "change": 6000,
+        "change": 7200,
         "operation": "set"
       }
     ]
