@@ -26,6 +26,11 @@
           "is_ambient": true
         }
       }
+    },
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "dragonBreath",
+      "inverted": true
     }
   },
   "toggle": {
