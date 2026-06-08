@@ -1,35 +1,55 @@
 {
-  "type": "origins:launch",
-  "cooldown": 100,
+  "type": "origins:multiple",
   "name": "Ascending flight",
-  "description": "Every 5 seconds, you are able to launch about 20 blocks up into the air. Doesn't work under the rain or in water.",
-  "hud_render": {
-    "bar_index": 4
+  "description": "Your powerful dragon wings allow you to go up anytime you want, just by looking up. Unfortunately, you still haven't figured vertical flight. Does consume food.",
+  "store_pitch": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "execute as @s store result score @s player_pitch run data get entity @s Rotation[1]"
+    }
   },
-  "sound": "minecraft:entity.ender_dragon.flap",
-  "speed": 2,
-  "key": {
-    "key": "key.origins.primary_active",
-    "continuous": true
-  },
-  "condition": {
-    "type": "origins:and",
-    "conditions": [
-      {
-        "type": "origins:in_rain",
-        "inverted": true
-      },
-      {
-        "type": "origins:fluid_height",
-        "fluid": "minecraft:water",
-        "comparison": ">",
-        "compare_to": 0.0,
-        "inverted": true
-      },
-      {
-        "type": "origins:elytra_flight_possible",
-        "check_abilities": true
-      }
-    ]
+  "ascend": {
+    "type": "origins:action_over_time",
+    "interval": 6,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:add_velocity",
+          "y": 0.1,
+          "z": 0.3,
+          "space": "local"
+        },
+        {
+          "type": "origins:exhaust",
+          "amount": 0.7
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:elytra_flight_possible",
+          "check_abilities": true
+        },
+        {
+          "type": "origins:fall_flying"
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "player_pitch",
+          "comparison": "<=",
+          "compare_to": -15
+        },
+        {
+          "type": "origins:food_level",
+          "comparison": ">",
+          "compare_to": 6
+        }
+      ]
+    }
   }
 }
