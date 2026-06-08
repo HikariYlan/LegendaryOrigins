@@ -1,0 +1,55 @@
+{
+  "type": "origins:action_on_item_use",
+  "name": "You need the whole pack of mint",
+  "description": "By looking down, with holding an empty bottle, you can breathe in it to get some dragon breath, useful for beetroots transmutation or firing dragon fireballs.",
+  "trigger": "instant",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:exhaust",
+        "amount": 2
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "id": "minecraft:dragon_breath"
+        }
+      },
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
+        "item_action": {
+          "type": "origins:consume",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.ender_dragon.growl"
+      }
+    ]
+  },
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:scoreboard",
+        "objective": "player_pitch",
+        "comparison": ">=",
+        "compare_to": 85
+      },
+      {
+        "type": "origins:food_level",
+        "comparison": ">",
+        "compare_to": 6
+      }
+    ]
+  }
+}
