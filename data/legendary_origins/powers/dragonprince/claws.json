@@ -36,6 +36,28 @@
       "continuous": false
     }
   },
+  "toggle_notifier": {
+    "type": "origins:active_self",
+    "key": {
+      "key": "key.origins.secondary_active",
+      "continuous": false
+    },
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_toggle"
+      },
+      "if_action": {
+        "type": "origins:execute_command",
+        "command": "title @s actionbar {\"text\":\"Claws retracted\",\"color\":\"red\"}"
+      },
+      "else_action": {
+        "type": "origins:execute_command",
+        "command": "title @s actionbar {\"text\":\"Claws extended\",\"color\":\"green\"}"
+      }
+    }
+  },
   "climbing": {
     "type": "origins:climbing",
     "hold_condition": {
